@@ -32,6 +32,17 @@ body {
   box-shadow: 0 4px 10px rgb(0 0 0 / 0.3);
 }
 
+@media screen and (min-width: 360px){
+  .calculator-container{
+    margin: 3em;
+    padding: 30px 25px;
+    grid-template-columns: repeat(4, minmax(60px, 40px));
+    grid-template-rows: repeat(6, minmax(10px, 50px));
+    gap: 1.2rem;
+  }
+
+}
+
 .screen {
   display: flex;
   justify-content: center;
